@@ -2,6 +2,14 @@
 
 This is my custom built smart bike lighting system powered by a Seeed Studio XIAO ESP32-S3 and an MPU6050 inertial sensor. I designed this project from scratch to provide safety features on the road including automatic deceleration triggered brake lights, dynamic turn signals, crash detection, and a local Wi-Fi web server that lets me control and monitor everything directly from my phone without needing an internet connection or an external app.
 
+
+---
+# Everything you need
+
+you'll find everything you'll need  
+schematic, pcb and others in 'Hardware' 
+Firmware 'Firmware' (wich i highly reccomend to make changed to)
+Fabrication files (gerber) 'FabricationFiles' needed to produce the pcb 
 ---
 
 ## Core Features
