@@ -1,8 +1,8 @@
 I have included two firmware versions depending on which board you choose for your build:
 
-Original  Firmware (ESP32 WROOM): The original, fully tested, and working firmware built for the full-size ESP32 WROOM board used during early prototyping. (wich i highly reccomend you use but fix and adapt to the esp32 s3)
+Original  Firmware (Original.ino): The original, fully tested, and working firmware built for the full-size ESP32 WROOM board used during early prototyping. (wich i highly reccomend you use but fix and adapt to the esp32 s3)
 
-New XIAO S3 Firmware (Code_3.ino): The updated version built for the compact Seeed Studio XIAO ESP32-S3. Because of pin constraints on the smaller board, brake LEDs 3 and 4 share a single control pin . (Not tested might not work as intended)
+New XIAO S3 Firmware (Untested.ino): The updated version built for the compact Seeed Studio XIAO ESP32-S3. Because of pin constraints on the smaller board, brake LEDs 3 and 4 share a single control pin . (Not tested might not work as intended)
 
 Note: This new XIAO S3 firmware version was not physically tested due to the unavailability of the parts.
 
