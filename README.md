@@ -6,10 +6,9 @@ This is my custom built smart bike lighting system powered by a Seeed Studio XIA
 ---
 # Everything you need
 
-you'll find everything you'll need  
-schematic, pcb and others in 'Hardware' 
-Firmware 'Firmware' (wich i highly reccomend to make changed to)
-Fabrication files (gerber) 'FabricationFiles' needed to produce the pcb 
+* **schematic, pcb and others in `Hardware` 
+* **Firmware `Firmware` (wich i highly reccomend to make changes to)
+* **Fabrication files (gerber) `FabricationFiles` needed to produce the pcb 
 ---
 
 ## Core Features
