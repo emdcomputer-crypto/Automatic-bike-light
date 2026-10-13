@@ -8,7 +8,7 @@
 | **Battery** | EEMB 963450 3.7V 1800mAh LiPo Rechargeable Battery with JST | 1 | $15.03 | [Amazon Link](https://www.amazon.it/dp/B08ZCQXFX4?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337_4) |
 | **Inertial Sensor** | ARCELI GY-521 MPU6050 6-Axis Accelerometer & Gyroscope | 1 | $7.81 | [Amazon Link](https://www.amazon.it/dp/B07BVXN2GP?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337_5) |
 | **LEDs & Resistors** | Lyeteung 450 Pcs 3mm LED Diode Kit (Red, Yellow, Green, White) + Resistors | 1 kit | $11.16 | [Amazon Link](https://www.amazon.it/dp/B0BTYFQGJM?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337_2) |
-| **PCB Fabrication** | JLCPCB Custom PCB Manufacturing (Gerber files in Hardware folder) | 1 | TBD | [JLCPCB](https://jlcpcb.com) |
+| **PCB Fabrication** | JLCPCB Custom PCB Manufacturing (Gerber files in Hardware folder) | 1 | 19.46 | [JLCPCB](https://jlcpcb.com) |
 
 ### Total Estimated: **$80.24 USD** *(excluding PCB manufacturing)*
 
