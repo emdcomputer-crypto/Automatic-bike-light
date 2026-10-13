@@ -1,6 +1,6 @@
 # Bill of Materials (BOM)
 
-| :--- | :--- | :--- | :--- | :--- |
+| Category / Role | Item | Qty | Price | Link |
 | **Microcontroller** | Seeed Studio XIAO ESP32-S3 | 1 | $18.99 | [Amazon Link](https://www.amazon.it/dp/B0BYSB66S5?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337_3) |
 | **Boost Converter** | Youmile DC-DC Step Up Boost Module (2V-24V to 5V-28V 2A) with 24AWG wire | 1 | $18.32 | [Amazon Link](https://www.amazon.it/dp/B0C5HXZ6HT?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337) |
 | **Battery Charger** | Greluma Type-C USB-C 5V 1A 18650 LiPo Charger Module (with protection) | 1 | $8.93 | [Amazon Link](https://www.amazon.it/dp/B09WMVLWH5?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337_1) |
