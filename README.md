@@ -73,7 +73,7 @@ Using the help of AI i wrote a lot of firmwares (still learning c++ in school bu
 * **Persistent Storage:** Uses the `Preferences` library to save calibration offsets and custom tuning parameters directly to flash memory.
 
 ### Phone Controller & Web Dashboard
-Connecting to the bike's Wi-Fi hotspot (`Luci di Emad`) opens a mobile-optimized control dashboard with the following capabilities:
+Connecting to the bike's Wi-Fi hotspot (`SmartBike`) opens a mobile-optimized control dashboard with the following capabilities:
 * **Live Telemetry Readouts:** Real-time data for deceleration, pitch, roll, and motion status (`MOVING` / `STILL`).
 * **Mode Switching:** Instantly toggle between **RIDE AUTO**, **HAZARD**, **MANUAL TEST**, **FLASH ALL**, **CHASE**, and **LIGHTS OFF**.
 * **Individual LED Control:** Interactive rear-view grid allowing manual toggling of individual LEDs for testing.
