@@ -13,10 +13,10 @@ This is my custom built smart bike lighting system powered by a Seeed Studio XIA
 
 ## Core Features
 
-* **Tilt-Compensated Braking:** The system calculates true deceleration using a complementary filter, filtering out false triggers caused by riding up or down steep hills.
-* **Brake Hysteresis:** Uses independent thresholds to turn the brake light on and off, preventing annoying flickering during gradual slowing.
-* **Turn Signal effect:** Smooth, progressive sliding animations across the side LEDs when turning.
-* **Crash Detection (SOS):** Automatically monitors for severe impacts or vehicle rollovers, triggering a Morse code SOS beacon (`... --- ...`) in an emergency. (Random feature)
+* **Tilt-Compensated Braking:** The system calculates true deceleration using a sort of filter, filtering out false triggers caused by riding up or down hills.
+* **Brake time:** Uses independent thresholds to turn the brake light on and off, preventing annoying flickering during gradual slowing.
+* **Turn Signal effect:** Cool and progressive sliding animations across the side LEDs when turning wich i really like.
+* **Crash Detection (SOS):** Automatically monitors for severe impacts or vehicle rollovers, triggering a Morse code SOS beacon (`... --- ...`) in an emergency. (Random feature honestly but still cool)
 * **Local Wi-Fi Web Server:** The ESP32 hosts a local hotspot serving a dashboard for live data showing the lights state and the possibility of different modes with also a manual customization mode wich lets you customize wich leds stay on (The mode will always go back to "auto" after every 2 minutes, of course you can change that).
 
 ---
@@ -28,7 +28,7 @@ I designed a custom PCB in KiCad measuring 120x35 mm with rounded edges (2mm dia
 ### Component Breakdown
 * **Microcontroller:** Seeed Studio XIAO ESP32-S3 (chosen for its size and built-in Wi-Fi).
 * **Inertial Sensor:** MPU6050 6-axis accelerometer and gyroscope.
-* **LED Matrix (Rear View Layout):**
+* **LEDs  (Rear View Layout):**
   * **Left Turn Indicator:** 3 yellow LEDs (`LEFT1`, `LEFT2`, `LEFT3`).
   * **Brake Lights:** 4 red LEDs (`BRAKE1`, `BRAKE2`, `BRAKE3`, `BRAKE4`). *Note: Due to pin constraints on the XIAO, brake LEDs 3 and 4 share a single control pin in the original firware when testing it was made for the full size esp32 wich may lead to bugs in the firmware.*
   * **Right Turn Indicator:** 3 yellow LEDs (`RIGHT1`, `RIGHT2`, `RIGHT3`).
@@ -63,23 +63,16 @@ When I power on the system, it has some simple and usefull sequences before star
 
 ---
 
-## Firmware Architecture (v4.0)
+## Firmware Architecture 
 
-Using the help of AI i wrote a lot of firmwares (still learning c++ in school but can't write full firwmwares so i'm sorry i'm still working and watching tutorials) went thru different bug fixes and all but this was the best most stable one wich still due to the lack of space in the pcb i had to go with a smaller and different microcontroller than the original one wich may make the firmware unstable or make some stuff not work either way feel free to take this firmware fix it, customize it or make one from scratch as i will provide the schematic too.
+Using the help of AI i wrote a lot of firmwares (still learning c++ in school but can't write full firwmwares so i'm sorry i'm still working and watching tutorials) went thru different bug fixes and all but this was the best most stable one wich still due to the lack of space in the pcb i had to go with a smaller and different microcontroller than the original one (that's why i included the original firmware that was built on the full sized esp32 wrom) so the firmware might be unstable or make some stuff not work either way feel free to take this firmware fix it, customize it or make one from scratch as i will provide the schematic too.
 
-### Key Firmware Highlights:
-* **Single-Loop Execution:** The sensor engine (`updateSensors`) runs every cycle in all operational modes, ensuring live telemetry never freezes during bench testing or manual overrides.
-* **Automatic Mode Timeouts:** All manual test modes automatically revert to `AUTO` mode after 2 minutes of inactivity so the bike is never left without active safety lighting.
-* **Persistent Storage:** Uses the `Preferences` library to save calibration offsets and custom tuning parameters directly to flash memory.
 
 ### Phone Controller & Web Dashboard
-Connecting to the bike's Wi-Fi hotspot (`SmartBike`) opens a mobile-optimized control dashboard with the following capabilities:
-* **Live Telemetry Readouts:** Real-time data for deceleration, pitch, roll, and motion status (`MOVING` / `STILL`).
-* **Mode Switching:** Instantly toggle between **RIDE AUTO**, **HAZARD**, **MANUAL TEST**, **FLASH ALL**, **CHASE**, and **LIGHTS OFF**.
-* **Individual LED Control:** Interactive rear-view grid allowing manual toggling of individual LEDs for testing.
-* **Brightness Adjustment:** Slider to dynamically control red LED output brightness.
-* **Low Power Radio Toggle:** Reduces Wi-Fi TX power to save battery without affecting safety lighting performance.
-
+Connecting to the bike's Wi-Fi hotspot (`SmartBike`) opens a website control dashboard with the following capabilities:
+* **Live data:** data for deceleration, pitch, roll, and motion status (`MOVING` / `STILL`).
+* **Mode Switching:** the ability to toggle between different preset modes **RIDE AUTO**, **HAZARD**, **MANUAL TEST**, **FLASH ALL**, **CHASE**, and **LIGHTS OFF**.
+* **Individual LED Control:** a grid, allowing manual toggling of individual LEDs for testing or for customization.
 ---
 
 ## Getting Started & Requirements
