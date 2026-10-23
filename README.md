@@ -65,7 +65,7 @@ When I power on the system, it has some simple and usefull sequences before star
 
 ## Firmware Architecture (v4.0)
 
-Using AI i wrote a lot of firmwares went thru different bug fixes and all but this was the best most stable one wich still due to the lack of space in the pcb i had to go with a smaller and different microcontroller than the original one wich may make the firmware unstable or make some stuff not work either way feel free to take this firmware fix it, customize it or make one from scratch as i will provide the schematic too.
+Using the help of AI i wrote a lot of firmwares (still learning c++ in school but can't write full firwmwares so i'm sorry i'm still working and watching tutorials) went thru different bug fixes and all but this was the best most stable one wich still due to the lack of space in the pcb i had to go with a smaller and different microcontroller than the original one wich may make the firmware unstable or make some stuff not work either way feel free to take this firmware fix it, customize it or make one from scratch as i will provide the schematic too.
 
 ### Key Firmware Highlights:
 * **Single-Loop Execution:** The sensor engine (`updateSensors`) runs every cycle in all operational modes, ensuring live telemetry never freezes during bench testing or manual overrides.
