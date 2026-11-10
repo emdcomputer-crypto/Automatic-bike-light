@@ -11,8 +11,9 @@
 | **PCB Fabrication** | JLCPCB Custom PCB Manufacturing (Gerber files in Hardware folder) (this also includes shipping) | 1 | $43.57 | [JLCPCB](https://jlcpcb.com) |
 
 ### AliExpress total (items, shipping, and estimated import fees): **$57.13 USD**
+### Battery (Amazon): **$15.03 USD**
 ### JLCPCB total (including shipping): **$43.57 USD**
-### Total Estimated: **$100.70 USD**
+### Total Estimated: **$115.73 USD**
 
 <img width="1917" height="943" alt="Screenshot 2026-11-10 210737" src="https://github.com/user-attachments/assets/07f35f3a-5b7f-454b-a59a-df0fe1a90e31" />
 <img width="1918" height="949" alt="Screenshot 2026-11-10 210753" src="https://github.com/user-attachments/assets/d2a21fe2-294e-4b8a-9c7c-a2f1b3037da4" />
