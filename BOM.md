@@ -8,7 +8,7 @@
 | **Battery** | 3.7V 1800mAh LiPo Rechargeable Battery | 1 | $15.03 | [Amazon](https://www.amazon.it/dp/B08ZCQXFX4?psc=1&ref_=cm_sw_r_cp_ud_ct_YRPRFCPGAK7MDH9JT337_4) |
 | **Inertial Sensor** | Mpu6050 | 1 | $2.62 | [Aliexpress](https://it.aliexpress.com/item/641898763.html?spm=a2g0o.cart.0.0.4b9e18fcb14mQg&mp=1&pdp_npi=6%40dis%21USD%21USD+2.78%21USD+2.62%21%21USD+2.62%21%21%21%400b88a96117943407415205840e0c3f%2158518793197%21ct%21IT%218194849047%21%211%210%21&gatewayAdapt=glo2ita) |
 | **LEDs & Resistors** | A cheap kit containing some resistors and leds | 1 kit | $3.38 | [Aliexpress](https://it.aliexpress.com/item/1005007492471456.html?spm=a2g0o.cart.0.0.4b9e18fcb14mQg&mp=1&pdp_npi=6%40dis%21USD%21USD+12.49%21USD+3.38%21%21USD+3.38%21%21%21%400b88a96117943407415205840e0c3f%2112000041009210012%21ct%21IT%218194849047%21%211%210%21&gatewayAdapt=glo2ita) |
-| **PCB Fabrication** | JLCPCB Custom PCB Manufacturing (Gerber files in Hardware folder) | 1 | 19.46 | [JLCPCB](https://jlcpcb.com) |
+| **PCB Fabrication** | JLCPCB Custom PCB Manufacturing (Gerber files in Hardware folder) (this also includes shipping) | 1 | 19.46 | [JLCPCB](https://jlcpcb.com) |
 
 ### Total Estimated: **$80.24 USD** *(excluding PCB manufacturing and shipping)*
 ### Total Estimated: **$99.70 USD** *(including PCB manufacturing and shipping)*
