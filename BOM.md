@@ -14,6 +14,7 @@
 ### Total Estimated: **$99.70 USD** *(including PCB manufacturing)*
 
 <img width="1903" height="935" alt="image" src="https://github.com/user-attachments/assets/d9915bfe-9742-4975-81c7-77d553001f14" />
-<img width="756" height="826" alt="image" src="https://github.com/user-attachments/assets/7af37c15-4c29-4b6b-81b8-85a8b6eb4c3b" />
+<img width="1919" height="951" alt="Screenshot 2026-11-10 205615" src="https://github.com/user-attachments/assets/42adc742-324c-4997-b73a-1b9e5ec954c4" />
+
 
 
