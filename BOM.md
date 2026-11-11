@@ -15,7 +15,8 @@
 ### JLCPCB total (including shipping): **$43.57 USD**
 ### Total Estimated: **$115.73 USD**
 
-<img width="1917" height="943" alt="Screenshot 2026-11-10 210737" src="https://github.com/user-attachments/assets/07f35f3a-5b7f-454b-a59a-df0fe1a90e31" />
+<img width="1917" height="943" alt="Screenshot 2026-11-10 210737" src="https://github.com/user-attachments/assets/82c5e356-bb88-4121-bec8-cb47137e535a" />
+
 <img width="1918" height="949" alt="Screenshot 2026-11-10 210753" src="https://github.com/user-attachments/assets/d2a21fe2-294e-4b8a-9c7c-a2f1b3037da4" />
 
 <img width="1919" height="951" alt="Screenshot 2026-11-10 205615" src="https://github.com/user-attachments/assets/42adc742-324c-4997-b73a-1b9e5ec954c4" />
